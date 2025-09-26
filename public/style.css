@@ -454,9 +454,23 @@ button {
 /* Logo style */
 .header__logo {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.75em;
+  flex-direction: column; /* stack vertically */
+  align-items: center;    /* center horizontally */
+  position: relative;     /* enable positioning */
+  gap: 0;                 /* no gap; use margin overlap */
+}
+
+.logo-text {
+  margin-top: -10px;      /* negative margin to overlap logo image */
+  background: var(--accent);
+  font-weight: 700;
+  padding: 5px 10px;
+  display: inline-block;
+  z-index: 10;            /* ensure text overlays image */
+  position: relative;     /* enable z-index */
+}
+.logo-text a:hover {
+  text-decoration: underline;
 }
 
 .header-img {
@@ -486,17 +500,7 @@ button {
   align-items: center;
 }
 
-/* Logo Text */
-.logo-text {
-  color: var(--background);
-  font-weight: 700;
-  padding: 5px 10px;
-  display: inline-block;
-}
 
-.logo-text a:hover {
-  text-decoration: underline;
-}
 
 /* Global images */
 img {
