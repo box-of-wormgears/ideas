@@ -1,5 +1,5 @@
-<div class="header-image-container">
-  <img src="{{ "train.gif" | relURL }}" alt="Train header image" class="header-img" />
+<div class="header__logo">
+  <img src="{{ "train.gif" | relURL }}" class="header-img" alt="Train header image" />
   <span class="logo-text">
     <a href="{{ with $.Site.Params.Logo.logoHomeLink }}{{ . }}{{ else }}/{{ end }}">
       {{ with $.Site.Params.Logo.logoText }}{{ . }}{{ else }}Terminal{{ end }}
