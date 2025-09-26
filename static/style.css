@@ -462,7 +462,6 @@ button {
 
 .logo-text {
   margin-top: -10px;      /* negative margin to overlap logo image */
-  background: var(--accent);
   font-weight: 700;
   padding: 5px 10px;
   display: inline-block;
