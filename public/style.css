@@ -51,7 +51,7 @@ body {
 }
 
 body.no-animations {
-  background-image: url(still.jpg); /* Fallback static image or solid color */
+  background-image: url('still.jpg'); /* Fallback static image or solid color */
   
 }
 
