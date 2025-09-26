@@ -457,28 +457,39 @@ button {
   flex-direction: column;
   align-items: center;
   position: relative;
-  gap: 0; /* no gap */
+  gap: 0;
 }
 
 .header-img {
-  border:none !important;
-  padding:0 !important;
-  margin-bottom: -10px; /* negative bottom margin to overlap text */
+  border: none !important;
+  padding: 0 !important;
+  margin-bottom: -22px;   /* larger negative for more overlap */
+  height: 52px;           /* reduce logo image size */
+  width: auto;
 }
 
 .logo-text {
-  margin-top: 0; /* no top margin */
+  margin-top: 0;
   font-weight: 400;
-  font-size: var(--font-size);
-  padding: 5px 10px;
+  font-size: 1.6rem;      /* increase for larger logo text */
+  padding: 2px 16px;      /* slightly larger text block */
   display: inline-block;
   position: relative;
   z-index: 10;
+  background: var(--accent);
+  color: var(--background);
+}
+
+.logo-text a {
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 .logo-text a:hover {
   text-decoration: underline;
 }
+
+
 
 
 /* Remove pseudo-element decoration */
