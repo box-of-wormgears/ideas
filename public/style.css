@@ -463,8 +463,8 @@ button {
 .header-img {
   border: none !important;
   padding: 0 !important;
-  margin-bottom: -22px;   /* larger negative for more overlap */
-  height: 82px;           /* reduce logo image size */
+  margin-bottom: -12px;   /* larger negative for more overlap */
+  height: 92px;           /* reduce logo image size */
   width: auto;
 }
 
