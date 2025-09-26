@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = 'about'
 +++
 > Trouble with a long journey like this,” continued the Captain, “is that you end up just talking to yourself a lot, which gets terribly boring because half the time you know what you’re going to say next." 
