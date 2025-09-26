@@ -435,45 +435,75 @@ button {
   font-weight: 600;
 }
 
+/* Header layout */
+.header {
+  width: 100%;
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1.5em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo style */
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75em;
+}
+
 .header-img {
-  height: auto;
-  width: auto;  
+  height: 60px;
+  width: auto;
   margin-right: 10px;
+  border: none;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
   display: inline-block;
   vertical-align: middle;
 }
 
+/* Remove pseudo-element decoration */
 .header__logo::after {
   display: none !important;
   content: none !important;
 }
 
-.header__inner, .container.center, .header {
+/* Menu style */
+.menu,
+.navigation-menu {
   display: flex;
+  gap: 2em;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-}
-.footer {
-  position: relative; /* or fixed if you want it always visible */
-  bottom: 0;
-  width: 100%;
-  z-index: 10;
-  text-align: center;
-  padding: 1em;
 }
 
-
-
+/* Logo Text */
 .logo-text {
-  /* text styling for the logo name */
   color: var(--background);
-  background: var(--accent);
   font-weight: 700;
   padding: 5px 10px;
   display: inline-block;
 }
 
 .logo-text a:hover {
-  text-decoration: underline; /* Optionally show underline on hover */
+  text-decoration: underline;
+}
+
+/* Global images */
+img {
+  display: block;
+  max-width: 100%;
+  border: 8px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 8px;
+  overflow: hidden;
 }
