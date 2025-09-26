@@ -466,7 +466,6 @@ button {
 
 .logo-text {
   margin-top: 0; /* no top margin */
-  background: var(--accent);
   font-weight: 700;
   padding: 5px 10px;
   display: inline-block;
