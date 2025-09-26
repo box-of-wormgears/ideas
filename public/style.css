@@ -496,7 +496,6 @@ button {
 /* Main menu wrapper for centering */
 .navigation-menu, .menu {
   display: flex;             /* flex for nav items inline */
-  flex-direction: center;   /* center horizontally */
   align-items: center;
   gap: 1.5em;                /* spacing between nav items */
 
