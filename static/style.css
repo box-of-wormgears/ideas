@@ -436,15 +436,33 @@ button {
 }
 
 .header-img {
-  height: 40px;
+  height: auto;
+  width: auto;  
   margin-right: 10px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .header__logo::after {
   display: none !important;
   content: none !important;
 }
+
+.header__inner, .container.center, .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer {
+  position: relative; /* or fixed if you want it always visible */
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  padding: 1em;
+}
+
 
 
 .logo-text {
