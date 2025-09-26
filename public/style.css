@@ -456,22 +456,20 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  gap: 0;
 }
 
 .header-img {
   border: none !important;
   padding: 0 !important;
   margin-bottom: -12px;   /* larger negative for more overlap */
-  height: 92px;           /* reduce logo image size */
+  height: 102px;           /* reduce logo image size */
   width: auto;
 }
 
 .logo-text {
   margin-top: 0;
   font-weight: 400;
-  font-size: 1.6rem;      /* increase for larger logo text */
+  font-size: 1.4rem;      /* increase for larger logo text */
   padding: 2px 16px;      /* slightly larger text block */
   display: inline-block;
   position: relative;
@@ -498,10 +496,10 @@ button {
 /* Main menu wrapper for centering */
 .navigation-menu, .menu {
   display: flex;             /* flex for nav items inline */
-  justify-content: center;   /* center horizontally */
+  flex-direction: center;   /* center horizontally */
   align-items: center;
   gap: 1.5em;                /* spacing between nav items */
-  padding: 0;
+
 }
 
 /* Nav links styling */
