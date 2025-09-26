@@ -1,0 +1,446 @@
+/* Fira Code: https://github.com/tonsky/FiraCode */
+@import url('https://cdn.staticdelivr.com/gfonts/css2?family=Fira+Code:wght@300..700&display=swap');
+
+:root {
+  --background: #fff6f6;
+  --foreground: #462d2d;
+  --accent: #cc6098;
+  --radius: 0;
+  --font-size: 1rem;
+  --line-height: 1.54em;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    "Fira Code",
+    "JetBrains Mono",
+    Monaco,
+    Consolas,
+     "Ubuntu Mono",
+    monospace;
+  font-size: var(--font-size);
+  font-weight: 800;
+  line-height: var(--line-height);
+  background-color: var(--background);
+  color: var(--foreground);
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: contextual;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  background-image:url('/8642963.gif');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  
+
+
+}
+
+body.no-animations {
+  background-image: url(/still.jpg); /* Fallback static image or solid color */
+  
+}
+
+body.no-animations img.animated, 
+body.no-animations video, 
+body.no-animations .gif-bg {
+  display: none !important; /* Hide animated GIFs, videos, etc. */
+}
+
+.content, .main {
+  background: rgba(255,240,219,0.95);    /* light, semi-opaque white background */
+  border-radius: 14px;                  /* optional: rounded corners */
+  box-shadow: 0 4px 32px rgba(0,0,0,0.05); /* optional: subtle shadow */
+  padding: 2em; 
+  margin: 1em auto;
+  max-width: 800px;                     /* set your preferred max width */
+  font-weight: 425;
+  padding-top:.8em;
+  padding-bottom:.2em;
+  
+  /* background-image: url('/posts.jpg');
+  /* background-repeat: no-repeat;
+  /*background-size:800px; */
+}
+
+
+
+h1 {
+  font-size: calc(var(--font-size) * 1.45);
+  letter-spacing: 0;
+}
+
+h2 {
+  font-size: calc(var(--font-size) * 1.35);
+  letter-spacing: 0;
+}
+
+h3 {
+  font-size: calc(var(--font-size) * 1.15);
+  letter-spacing: 0;
+}
+
+h4,
+h5,
+h6 {
+  font-size: calc(var(--font-size) * 1);
+  letter-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol,
+img, figure, video,
+table {
+  margin: 25px 0;
+}
+
+a {
+  color: var(--accent);
+}
+
+button {
+  position: relative;
+  font: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  background: transparent;
+  color: var(--accent);
+  padding: 2px 18px;
+  border: 1.5px solid var(--accent);
+  border-radius: var(--radius);
+  transition: background 0.15s linear;
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 2px;
+}
+
+fieldset {
+  display: inline-block;
+  border: 2px solid var(--foreground);
+  border-radius: calc(var(--radius) * 1.6);
+  padding: 10px;
+}
+
+fieldset *:first-child {
+  margin-top: 0;
+}
+
+fieldset input,
+fieldset select,
+fieldset textarea,
+fieldset label,
+fieldset button {
+  margin-top: calc(var(--line-height) * 0.5);
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+}
+
+label input {
+  margin-top: 0;
+}
+
+input,
+textarea,
+select {
+  background: transparent;
+  color: var(--foreground);
+  border: 1px solid var(--foreground);
+  border-radius: var(--radius);
+  padding: 10px;
+  font: inherit;
+  appearance: none;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+input:focus-visible,
+input:active,
+textarea:focus-visible,
+textarea:active,
+select:focus-visible,
+select:active {
+  border-color: var(--accent);
+  outline: 1px solid var(--accent);
+  outline-offset: 2px;
+}
+
+input:active,
+textarea:active,
+select:active {
+  box-shadow: none;
+}
+
+select {
+  background-image: linear-gradient(
+      45deg,
+      transparent 50%,
+      var(--foreground) 50%
+    ),
+    linear-gradient(135deg, var(--foreground) 50%, transparent 50%);
+  background-position: calc(100% - 20px), calc(100% - 15px);
+  background-size:
+    5px 5px,
+    5px 5px;
+  background-repeat: no-repeat;
+  padding-right: 40px;
+}
+
+select option {
+  background: var(--background);
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  vertical-align: middle;
+  padding: 10px;
+  box-shadow: inset 0 0 0 3px var(--background);
+}
+
+input[type="radio"] {
+  display: inline-block;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 20px;
+}
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  background: var(--accent);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border: 8px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 8px;
+  overflow: hidden;
+}
+
+figure img,
+figure video {
+  margin-bottom: 0;
+}
+
+figure figcaption {
+  background: var(--accent);
+  color: var(--background);
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+  margin-top: -8px;
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+
+ul,
+ol {
+  margin-left: 4ch;
+  padding: 0;
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-top: 0;
+}
+
+li::marker {
+  color: var(--accent);
+}
+
+ul li,
+ol li {
+  position: relative;
+}
+
+code,
+kbd {
+  font-family:
+    "Fira Code",
+    "JetBrains Mono",
+    Monaco,
+    Consolas,
+    Ubuntu Mono,
+    monospace !important;
+  font-feature-settings: normal;
+  background: color-mix(in srgb, var(--foreground) 5%, transparent);
+  color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
+  padding: 0 6px;
+  margin: 0 2px;
+  font-size: 0.95em;
+}
+
+code {
+  border: 1px solid color-mix(in srgb, var(--foreground) 25%, transparent);
+}
+
+kbd {
+  border-top: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+  border-left: 1px solid var(--accent);
+  border-right: 1px solid var(--accent);
+  border-bottom: 4px solid var(--accent);
+  border-radius: 4px;
+}
+
+code code {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+pre {
+  tab-size: 4;
+  background: color-mix(in srgb, var(--foreground) 5%, transparent) !important;
+  color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
+  padding: 20px 10px;
+  font-size: 0.95em !important;
+  overflow: auto;
+  border-radius: var(--radius);
+  border: 1px solid color-mix(in srgb, var(--foreground) 25%, transparent);
+}
+
+pre code {
+  background: none !important;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  border: none;
+}
+
+sup {
+  line-height: 0;
+}
+
+abbr {
+  position: relative;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--accent);
+  cursor: help;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.25em;
+}
+
+mark {
+  background: color-mix(in srgb, var(--accent) 45%, transparent);
+  color: var(--foreground);
+}
+
+blockquote {
+  position: relative;
+  background:  rgba(255,240,229,0.95);
+  border-top: 0px solid var(--accent);
+  border-bottom: 0px solid var(--accent);
+  margin: 0;
+  padding: 25px;
+  color: #cd0064;
+  font-weight: 600;
+  font-style:italic;
+  border-radius: 12px;              /* Rounded corners (optional) */
+  padding: 1.5em 2em;
+  margin: 2em auto;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.1); /* Optional subtle shadow */
+  max-width:580px;
+  width:100%;
+}
+
+blockquote:before {
+  content: "❝";
+  color: #cd7aa3;
+  font-size: 2.2em;
+  position: absolute;
+  left: 0.05em;
+  line-height: 1;
+}
+
+
+
+blockquote p:first-child {
+  margin-top: 0;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+table {
+  table-layout: auto;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 2px solid var(--foreground);
+  padding: 10px;
+}
+
+th {
+  border-style: solid;
+  color: var(--foreground);
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  background: var(--accent);
+  height: 2px;
+}
+
+/* Bold elements */
+
+h1, h2, h3, h4, h5, h6,
+b, strong,
+th,
+button {
+  font-weight: 600;
+}
+
+.logo-text a {
+  text-decoration: none;   /* Remove underline */
+  color: inherit;          /* Inherit parent color (optional, for consistent color) */
+  cursor: pointer;         /* Optional: show pointer on hover */
+}
+
+.logo-text a:hover {
+  text-decoration: underline; /* Optionally show underline on hover */
+}
