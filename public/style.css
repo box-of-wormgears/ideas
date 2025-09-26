@@ -440,6 +440,13 @@ button {
   margin-right: 10px;
   display: inline-block;
 }
+
+.header__logo::after {
+  display: none !important;
+  content: none !important;
+}
+
+
 .logo-text {
   /* text styling for the logo name */
   color: var(--background);
