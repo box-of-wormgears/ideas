@@ -461,12 +461,15 @@ button {
 }
 
 .header-img {
+  border:none !important;
+  padding:0 !important;
   margin-bottom: -10px; /* negative bottom margin to overlap text */
 }
 
 .logo-text {
   margin-top: 0; /* no top margin */
-  font-weight: 700;
+  font-weight: 400;
+  font-size: var(--font-size);
   padding: 5px 10px;
   display: inline-block;
   position: relative;
