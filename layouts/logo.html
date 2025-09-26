@@ -1,0 +1,8 @@
+<div class="header-image-container">
+  <img src="{{ "train.gif" | relURL }}" alt="Train header image" class="header-img" />
+  <span class="logo-text">
+    <a href="{{ with $.Site.Params.Logo.logoHomeLink }}{{ . }}{{ else }}/{{ end }}">
+      {{ with $.Site.Params.Logo.logoText }}{{ . }}{{ else }}Terminal{{ end }}
+    </a>
+  </span>
+</div>
