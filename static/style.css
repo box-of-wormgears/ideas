@@ -464,7 +464,7 @@ button {
   border: none !important;
   padding: 0 !important;
   margin-bottom: -22px;   /* larger negative for more overlap */
-  height: 22px;           /* reduce logo image size */
+  height: 52px;           /* reduce logo image size */
   width: auto;
 }
 
@@ -476,16 +476,12 @@ button {
   display: inline-block;
   position: relative;
   z-index: 10;
-  background: var(--accent);
   color: var(--background);
 }
 
 .logo-text a {
   font-weight: inherit;
   font-size: inherit;
-}
-
-.logo-text a:hover {
   text-decoration: underline;
 }
 
