@@ -445,7 +445,7 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: auto;
   gap: 1.5em;
   max-width: 1200px;
   margin: 0 auto;
@@ -500,7 +500,7 @@ button {
   display: flex;             /* flex for nav items inline */
   align-items: center;
   justify-content: center;
-  gap: 1.5em;                /* spacing between nav items */
+  width: auto;
 
 }
 
