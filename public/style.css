@@ -497,6 +497,7 @@ button {
 .navigation-menu, .menu {
   display: flex;             /* flex for nav items inline */
   align-items: center;
+  justify-content: center;
   gap: 1.5em;                /* spacing between nav items */
 
 }
