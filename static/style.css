@@ -454,35 +454,30 @@ button {
 /* Logo style */
 .header__logo {
   display: flex;
-  flex-direction: column; /* stack vertically */
-  align-items: center;    /* center horizontally */
-  position: relative;     /* enable positioning */
-  gap: 0;                 /* no gap; use margin overlap */
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 0; /* no gap */
+}
+
+.header-img {
+  margin-bottom: -10px; /* negative bottom margin to overlap text */
 }
 
 .logo-text {
-  margin-top: -10px;      /* negative margin to overlap logo image */
+  margin-top: 0; /* no top margin */
+  background: var(--accent);
   font-weight: 700;
   padding: 5px 10px;
   display: inline-block;
-  z-index: 10;            /* ensure text overlays image */
-  position: relative;     /* enable z-index */
+  position: relative;
+  z-index: 10;
 }
+
 .logo-text a:hover {
   text-decoration: underline;
 }
 
-.header-img {
-  height: 100px;
-  width: auto;
-  margin-right: 10px;
-  border: none;
-  padding: 0;
-  background: transparent;
-  box-shadow: none;
-  display: inline-block;
-  vertical-align: middle;
-}
 
 /* Remove pseudo-element decoration */
 .header__logo::after {
