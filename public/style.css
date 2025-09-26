@@ -502,7 +502,6 @@ button {
   align-items: center;
   gap: 1.5em;                /* spacing between nav items */
   padding: 0;
-  margin: 0 auto;            /* margin auto horizontal centering */
 }
 
 /* Nav links styling */
