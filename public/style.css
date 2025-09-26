@@ -41,7 +41,7 @@ body {
   -webkit-text-size-adjust: 100%;
   margin: 0;
   padding: 0;
-  background-image:url('/8642963.gif');
+  background-image:url('8642963.gif');
   background-repeat:no-repeat;
   background-size:cover;
   background-attachment: fixed;
@@ -51,7 +51,7 @@ body {
 }
 
 body.no-animations {
-  background-image: url(/still.jpg); /* Fallback static image or solid color */
+  background-image: url(still.jpg); /* Fallback static image or solid color */
   
 }
 

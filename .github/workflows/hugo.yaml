@@ -81,6 +81,7 @@ jobs:
         run: |
           hugo \
             --gc \
+            --minify \
             --baseURL "https://box-of-wormgears.github.io/ideas/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache save
