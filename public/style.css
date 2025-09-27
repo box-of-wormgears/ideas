@@ -448,10 +448,12 @@ button {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .navigation-menu {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  top: 110px; /* adjust this value to just below your logo image/text */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -482,7 +484,7 @@ button {
   display: inline-block;
   position: relative;
   z-index: 10;
-  color: var(--background);
+  color: #cd7aa3;
 }
 
 .logo-text a {
