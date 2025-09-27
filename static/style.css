@@ -474,7 +474,7 @@ button {
   border: none !important;
   padding: 0 !important;
   margin-bottom: -12px;   /* larger negative for more overlap */
-  height: auto;           /* reduce logo image size */
+  height: 120px;           /* reduce logo image size */
   width: auto;
 }
 
