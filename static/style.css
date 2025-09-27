@@ -473,7 +473,7 @@ button {
 .header-img {
   border: none !important;
   padding: 0 !important;
-  margin-bottom: -15px;   /* larger negative for more overlap */
+  margin-bottom: -20px;   /* larger negative for more overlap */
   height: 120px;           
   width: auto;
 }
