@@ -441,14 +441,20 @@ button {
 }
 
 .header__inner {
+  position: relative;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  width: auto;
-  gap: 1.5em;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+.navigation-menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Logo style */
@@ -494,15 +500,7 @@ button {
   content: none !important;
 }
 
-/* Menu style */
-/* Main menu wrapper for centering */
-.navigation-menu, .menu {
-  display: flex;             /* flex for nav items inline */
-  align-items: center;
-  justify-content: center;
-  width: auto;
 
-}
 
 /* Nav links styling */
 .navigation-menu a, .menu a {
