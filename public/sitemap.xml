@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://box-of-wormgears.github.io/ideas/tbr/</loc>
+    <loc>/tbr/</loc>
   </url><url>
-    <loc>https://box-of-wormgears.github.io/ideas/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>https://box-of-wormgears.github.io/ideas/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://box-of-wormgears.github.io/ideas/posts/</loc>
+    <loc>/posts/</loc>
   </url><url>
-    <loc>https://box-of-wormgears.github.io/ideas/tags/</loc>
+    <loc>/tags/</loc>
   </url><url>
-    <loc>https://box-of-wormgears.github.io/ideas/</loc>
+    <loc>/</loc>
   </url><url>
-    <loc>https://box-of-wormgears.github.io/ideas/posts/wormgears/</loc>
+    <loc>/posts/wormgears/</loc>
   </url>
 </urlset>

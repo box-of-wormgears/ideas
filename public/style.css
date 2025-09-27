@@ -453,10 +453,12 @@ button {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 110px; /* adjust this value to just below your logo image/text */
+  top: 120px; /* adjust this value to just below your logo image/text */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px; /* adds space below nav */
+
 }
 
 /* Logo style */
@@ -484,14 +486,9 @@ button {
   display: inline-block;
   position: relative;
   z-index: 10;
-  color: #cd7aa3;
+  color: #f7daef;
 }
 
-.logo-text a {
-  font-weight: inherit;
-  font-size: inherit;
-  text-decoration: underline;
-}
 
 
 
@@ -511,7 +508,7 @@ button {
   padding: 0.5em 1em;
   text-decoration: none;
 }
-.navigation-menu a:hover, .menu a:hover {
+.navigation-menu a:hover, .menu a:hover, .logo-text a:hover {
   text-decoration: underline;
 }
 
