@@ -71,7 +71,7 @@ body.no-animations .gif-bg {
   font-weight: 425;
   padding-top:.8em;
   padding-bottom:.2em;
-  margin-top: 40px;
+  margin-top: 80px;
   
   /* background-image: url('/posts.jpg');
   /* background-repeat: no-repeat;
@@ -458,7 +458,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
+  
 
 }
 
