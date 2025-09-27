@@ -93,7 +93,7 @@ pagination.pagerSize = 5
 
       [languages.en.params.logo]
         logoText = "pottering, pottering"
-        logoHomeLink = "/"
+        logoHomeLink = "/ideas"
 
       [languages.en.menu]
 
