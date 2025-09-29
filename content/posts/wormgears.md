@@ -6,6 +6,7 @@ description = "_Isaac told himself off for losing his patience  \n at the same m
 showFullContent = false
 readingTime = false
 hideComments = false
+draft = true
 
 
 +++
