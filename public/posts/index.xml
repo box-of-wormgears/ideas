@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Terminal</title>
-    <link>//localhost:55778/posts/</link>
+    <link>//localhost:58743/posts/</link>
     <description>Recent content in Posts on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="//localhost:55778/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:58743/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>wormgears</title>
-      <link>//localhost:55778/posts/wormgears/</link>
+      <title>fragments of related knowledge</title>
+      <link>//localhost:58743/posts/fragments-of-related-knowledge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:55778/posts/wormgears/</guid>
-      <description>&lt;p&gt;Andrew Gelman says I should have a blog. No, really. Well, he said he prefers it to Twitter. And he was talking about people who want to blog about statistics. That we should write about our personal experiences. Someone pointed out, helpfully, in the comments, that this may not be the best suggestion because free speech is not so hot to trot right now. (Boy oh boy could we unpack &lt;em&gt;that&lt;/em&gt; statement.) Well, for better or for worse, the repression of free speech situation is a sort of essential part of my personal experiences right now. So I will be blogging after all.&lt;/p&gt;</description>
+      <guid>//localhost:58743/posts/fragments-of-related-knowledge/</guid>
+      <description>&lt;p&gt;[v1: Sep 29 2025]&lt;/p&gt;&#xA;&lt;p&gt;Assata Shakur died on Thursday. You may be looking at my little reading list and thinking wtf does Assata Shakur have to do with Bayesian statistics and information theory and all that other mumbo jumbo. Actually &lt;em&gt;I Am Assata&lt;/em&gt; is the first book that got me thinking about how to navigate the messiness of the world, and this is also the driving force behind my interest in the mumbo jumbo.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
