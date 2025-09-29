@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Terminal</title>
-    <link>/posts/</link>
+    <link>//localhost:55778/posts/</link>
     <description>Recent content in Posts on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:55778/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>wormgears</title>
-      <link>/posts/wormgears/</link>
+      <link>//localhost:55778/posts/wormgears/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/posts/wormgears/</guid>
+      <guid>//localhost:55778/posts/wormgears/</guid>
       <description>&lt;p&gt;Andrew Gelman says I should have a blog. No, really. Well, he said he prefers it to Twitter. And he was talking about people who want to blog about statistics. That we should write about our personal experiences. Someone pointed out, helpfully, in the comments, that this may not be the best suggestion because free speech is not so hot to trot right now. (Boy oh boy could we unpack &lt;em&gt;that&lt;/em&gt; statement.) Well, for better or for worse, the repression of free speech situation is a sort of essential part of my personal experiences right now. So I will be blogging after all.&lt;/p&gt;</description>
     </item>
   </channel>
