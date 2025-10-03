@@ -2,7 +2,7 @@
 title = "fragments of related knowledge"
 cover = ""
 keywords = ["", ""]
-description = "_The usual way that people are taught to think in amerika is that each subject is in a little compartment and has no relation to any other subject. For the most part, we receive fragments of unrelated knowledge, and our education follows no logical format or pattern. It is exactly this kind of education that produces people who don't have the ability to think for themselves and who are easily manipulated._  \n\n(I am Assata)"
+description = "**The usual way that people are taught to think in amerika is that each subject is in a little compartment and has no relation to any other subject. For the most part, we receive fragments of unrelated knowledge, and our education follows no logical format or pattern. It is exactly this kind of education that produces people who don't have the ability to think for themselves and who are easily manipulated.**  \n\n(I am Assata)"
 showFullContent = false
 readingTime = false
 hideComments = false
@@ -11,18 +11,25 @@ hideComments = false
 
 +++
 
-[v1: Sep 29 2025]
+Assata Shakur died last Thursday. You may be looking at my little reading list and thinking wtf does Assata Shakur have to do with Bayesian statistics and information theory and all that other mumbo jumbo. Actually, in many ways _I Am Assata_ is a study in applied reasoning. Ms. Shakur lays out her priors and her observations, and the process of arriving to her posteriors, in critical detail. This sort of mastery is basically the whole point of the mumbo jumbo. 
 
-Assata Shakur died on Thursday. You may be looking at my little reading list and thinking wtf does Assata Shakur have to do with Bayesian statistics and information theory and all that other mumbo jumbo. Actually _I Am Assata_ is the first book that got me thinking about how to navigate the messiness of the world, and this is also the driving force behind my interest in the mumbo jumbo.
+> To win any struggle for liberation, you have to have the way as well as the will, an overall ideology and strategy that stem from a scientific analysis of history and present conditions.
 
-The first time I came to Ms. Shakur's book I was fresh out of high school. I had read a lot of theory and done a little organizing. I understood the world through frames of intersectionality and had strong feelings about it. My gut instinct was always to ask, _Why should I?_ The feeble work I had done provided me with a satisfying answer to the _why_ of things. Reading her memoir I began to realize how much I didn't know what the _how_ or _what_ entailed. Of course I was still very far off from putting together a response for those questions; mostly I was just starstruck. I suggested to my high school American Lit teacher that _I Am Assata_ should be required reading, having forgotten that in fact Ms. Shakur was still on the FBI Most Wanted list and unlikely to headline a syllabus anytime soon. 
+It was this text which taught me that revolution is a science, that its theory of change is crafted by iterative analytical process like any other scientific theory. In her discussions of the **"concept, the people's movement, the idea"** that is the Black Liberation Army, Ms. Shakur identifies critical principles (hee hee desiderata #iykyk) upon which she grounds her theories of logic and reasoning. Through her discerning lens she thoughtfully examines: 
 
-> My patience was zero. I didn't want to wait for something to happen. I was into living and living for now. I was hungry, starving for life, but at the same time I was growing more and more cynical every day... I had many zigzag conflicting ideas rolling around in my head at the same time. One day i was just happy to be alive and young and moving. The next day i felt like the world was coming to an end. Everything in my life was jagged, sharp, unfinished edges. Nothing happened calmly.
+* Noisy channel theory
+* Decision rules
+* Admissibility
+* Sufficiency & ancillarity
+* Variational inference
+* Loss function selection
+* Model drift
 
-As I began to seriously confront the world, as the world began to confront me back, I reached for this book in a different way. I read with desperation. I was not starving for life but for answers: to the _what_, to the _how_.
 
+Like Jaynes I believe that probability theory is best formulated as extended logic. The field of statistics is stripped of purpose if its methods can only be applied in contrived scenarios and limiting cases. The world does not exist as fragments of unrelated knowledge; it cannot be parceled out and represented as such in the confines of an R window. Of course I do not believe that we can - or should - translate liberation organizing into maximum a posteriori estimations. But I do think it is a mistake to divorce the theory of reasoning under uncertainty from the uncertain world itself. 
 
+Why should we make enormously consequential decisions with criteria we would never apply, even at a loosely intuitive level, in our every day lives? And on the flip side, why should I make ad hoc decisions in my every day life without access to a principled system of extended logic? Anyone who knows me irl is probably sick and tired of hearing this Yanis Varoufakis quote but I come back to it again and again: **Are we meant to serve the rules, or are the rules meant to serve the principles?** 
 
-I wish I still had that paper copy to see from my annotations what I thought was most important. Not because I think it was a valuable perspective. But because I want to know what those over-eager eyes missed, what I thought was important in that spectacularly naive and inexperienced stage of life. I suppose I could ask for it back: I traded it, five years ago, for a copy of _Just Mercy_ by Bryan Stevenson. 
+> I decided the only way i would come up with some answers was to keep on studying and struggling.
 
-
+We are in a time of need for principled and organized action. Again and again Ms. Shakur advocates for organizing oneself in a disciplined manner; for the political concerns to be discussed alongside the tactical; for the waging a step-by-step analytical struggle; for the adoption of systematic approaches. I believe in the potential of probability theory as one such systematic approach if only we can just get our heads out of our asses about it. But right now study is so spectacularly removed from struggle that the idea of probability and statistics as a unifying framework for revolutionary action is laughable. I hope that in Ms. Shakur's legacy we begin to knit the two back together, piece by piece.

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Terminal</title>
-    <link>//localhost:58743/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="//localhost:58743/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fragments of related knowledge</title>
-      <link>//localhost:58743/posts/fragments-of-related-knowledge/</link>
+      <link>//localhost:1313/posts/fragments-of-related-knowledge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:58743/posts/fragments-of-related-knowledge/</guid>
+      <guid>//localhost:1313/posts/fragments-of-related-knowledge/</guid>
       <description>&lt;p&gt;[v1: Sep 29 2025]&lt;/p&gt;&#xA;&lt;p&gt;Assata Shakur died on Thursday. You may be looking at my little reading list and thinking wtf does Assata Shakur have to do with Bayesian statistics and information theory and all that other mumbo jumbo. Actually &lt;em&gt;I Am Assata&lt;/em&gt; is the first book that got me thinking about how to navigate the messiness of the world, and this is also the driving force behind my interest in the mumbo jumbo.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -22,25 +22,11 @@
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Trouble with a long journey like this,” continued the Captain, “is that you end up just talking to yourself a lot, which gets terribly boring because half the time you know what you’re going to say next.&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;“Only half the time?” asked Arthur in surprise.&lt;/p&gt;&#xA;&lt;p&gt;Captain thought for a moment. “Yes, about half, I’d say. Anyway—where’s the soap?”&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
     <item>
-      <title>about</title>
-      <link>//localhost:1313/about/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/about/</guid>
-      <description>&lt;p&gt;&lt;em&gt;“Trouble with a long journey like this,” continued the Captain, “is that you end up just talking to yourself a lot, which gets terribly boring because half the time you know what you’re going to say next.&amp;quot;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;“Only half the time?” asked Arthur in surprise.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Captain thought for a moment. “Yes, about half, I’d say. Anyway—where’s the soap?”&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>fragments of related knowledge</title>
       <link>//localhost:1313/posts/fragments-of-related-knowledge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/fragments-of-related-knowledge/</guid>
-      <description>&lt;p&gt;[v1: Sep 29 2025]&lt;/p&gt;&#xA;&lt;p&gt;Assata Shakur died on Thursday. You may be looking at my little reading list and thinking wtf does Assata Shakur have to do with Bayesian statistics and information theory and all that other mumbo jumbo. Actually &lt;em&gt;I Am Assata&lt;/em&gt; is the first book that got me thinking about how to navigate the messiness of the world, and this is also the driving force behind my interest in the mumbo jumbo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>wormgears</title>
-      <link>//localhost:1313/posts/wormgears/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/wormgears/</guid>
-      <description>&lt;p&gt;Andrew Gelman says I should have a blog. No, really. Well, he said he prefers it to Twitter. And he was talking about people who want to blog about statistics. That we should write about our personal experiences. Someone pointed out, helpfully, in the comments, that this may not be the best suggestion because free speech is not so hot to trot right now. (Boy oh boy could we unpack &lt;em&gt;that&lt;/em&gt; statement.) Well, for better or for worse, the repression of free speech situation is a sort of essential part of my personal experiences right now. So I will be blogging after all.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Assata Shakur died last Thursday. You may be looking at my little reading list and thinking wtf does Assata Shakur have to do with Bayesian statistics and information theory and all that other mumbo jumbo. Actually, in many ways &lt;em&gt;I Am Assata&lt;/em&gt; is a study in applied reasoning. Ms. Shakur lays out her priors and her observations, and the process of arriving to her posteriors, in critical detail. This sort of mastery is basically the whole point of the mumbo jumbo.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
