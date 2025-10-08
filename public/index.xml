@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on Terminal</description>
+    <title>𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊</title>
+    <link>/</link>
+    <description>Recent content on 𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>.❀。• *₊°。 ❀°。  a syllabus of sorts .❀。• *₊°。 ❀°。 </title>
-      <link>//localhost:1313/tbr/</link>
+      <link>/tbr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tbr/</guid>
+      <guid>/tbr/</guid>
       <description>&lt;p&gt;• Probability Theory: The Logic of Science (Jaynes)&lt;/p&gt;&#xA;&lt;p&gt;• Winners Take All: The Elite Charade of Changing the World (Giridharadas)&lt;/p&gt;&#xA;&lt;p&gt;• Bernoulli&amp;rsquo;s Fallacy: Statistical Illogic and the Crisis of Modern Science (Clayton)&lt;/p&gt;&#xA;&lt;p&gt;• Debt: The First 5000 Years (Graeber)&lt;/p&gt;&#xA;&lt;p&gt;• The Art of Logic in an Illogical World (Cheng)&lt;/p&gt;&#xA;&lt;p&gt;• Perfect Victims: and the Politics of Appeal (el-Kurd)&lt;/p&gt;</description>
     </item>
     <item>
       <title>about</title>
-      <link>//localhost:1313/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
+      <guid>/about/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Trouble with a long journey like this,” continued the Captain, “is that you end up just talking to yourself a lot, which gets terribly boring because half the time you know what you’re going to say next.&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;“Only half the time?” asked Arthur in surprise.&lt;/p&gt;&#xA;&lt;p&gt;Captain thought for a moment. “Yes, about half, I’d say. Anyway—where’s the soap?”&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>fragments of related knowledge</title>
-      <link>//localhost:1313/posts/fragments-of-related-knowledge/</link>
+      <link>/posts/fragments-of-related-knowledge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/fragments-of-related-knowledge/</guid>
+      <guid>/posts/fragments-of-related-knowledge/</guid>
       <description>&lt;p&gt;Assata Shakur died last Thursday. You may be looking at my little reading list and thinking wtf does Assata Shakur have to do with Bayesian statistics and information theory and all that other mumbo jumbo. Actually, in many ways &lt;em&gt;I Am Assata&lt;/em&gt; is a study in applied reasoning. Ms. Shakur lays out her priors and her observations, and the process of arriving to her posteriors, in critical detail. This sort of mastery is basically the whole point of the mumbo jumbo.&lt;/p&gt;</description>
     </item>
   </channel>
