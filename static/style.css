@@ -520,10 +520,22 @@ button {
 .navigation-menu a, .menu a {
   display: inline-block;
   color: var(--accent);
-  padding: 0.5em 1em;
+  padding: 0.5m 1em;
   text-decoration: none;
 }
 .navigation-menu a:hover, .menu a:hover, .logo-text a:hover {
   text-decoration: underline;
 }
 
+.comments-container {
+  background-image: url('posts.jpg');
+  padding: 2.5rem;
+  padding-top: 5.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  background-position-x: center;
+  background-position-y: -120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
