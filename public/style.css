@@ -40,6 +40,7 @@ body {
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   margin: 0;
+  margin-top: 50px;
   padding: 0;
   background-image:url('8642963.gif');
   background-repeat:no-repeat;
@@ -71,7 +72,7 @@ body.no-animations .gif-bg {
   font-weight: 425;
   padding-top:.8em;
   padding-bottom:.2em;
-  margin-top: 80px;
+  margin-top: -10px;
   
   /* background-image: url('/posts.jpg');
   /* background-repeat: no-repeat;
@@ -439,23 +440,29 @@ button {
 /* Header layout */
 .header {
   width: 100%;
+  position: relative;
+  
+  
+  
 }
 
 .header__inner {
-  position: relative;
   display: flex;
-  align-items: center;
+  flex-direction: column; /* Stack logo and nav vertically */
+  align-items: center;    /* Center children horizontally */
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
+  
 }
 
 .navigation-menu {
-  position: absolute;
+  display: flex;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
-  top: 140px; /* adjust this value to just below your logo image/text */
-  display: flex;
+  top: -25px; /* adjust this value to just below your logo image/text */
   justify-content: center;
   align-items: center;
   
@@ -467,16 +474,22 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
+  justify-content: center; /* ensures horizontal centering */
+  position: relative;
+  margin: 0 auto;
   padding: 0;
 }
 
 .header-img {
   border: none !important;
   padding: 0 !important;
-  margin-bottom: -20px;   /* larger negative for more overlap */
+  margin-bottom: 5px;   /* larger negative for more overlap */
   height: 120px;           
   width: auto;
+  justify-content: center;
+  position: relative;
+
+  
 }
 
 .logo-text {
